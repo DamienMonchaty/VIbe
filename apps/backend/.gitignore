@@ -1,0 +1,46 @@
+# Dépendances Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers de build
+dist/
+build/
+*.tsbuildinfo
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Fichiers temporaires
+.tmp/
+.temp/
+
+# Uploads
+uploads/
+public/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Base de données locale
+*.db
+*.sqlite
+
+# Coverage
+coverage/

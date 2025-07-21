@@ -1,0 +1,23 @@
+{
+  "name": "vibe",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "backend": "nx dev backend",
+    "frontend": "nx dev frontend",
+    "dev": "nx run-many --target=dev --projects=backend,frontend --parallel",
+    "build": "nx run-many --target=build --projects=backend,frontend",
+    "start:backend": "nx start backend",
+    "start:frontend": "nx preview frontend"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/js": "21.3.0",
+    "nx": "21.3.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}

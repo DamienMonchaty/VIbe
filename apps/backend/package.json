@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Vibe Social Network Backend API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "start": "bun run dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "social-network",
+    "elysia",
+    "api",
+    "marketplace",
+    "video"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elysiajs/bearer": "^1.3.0",
+    "@elysiajs/cors": "^1.3.3",
+    "@elysiajs/html": "^1.3.0",
+    "@elysiajs/jwt": "^1.3.2",
+    "@elysiajs/static": "^1.3.0",
+    "@elysiajs/swagger": "^1.3.1",
+    "dotenv": "^17.2.0",
+    "elysia": "^1.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
